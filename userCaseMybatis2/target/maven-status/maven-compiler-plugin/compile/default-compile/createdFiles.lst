@@ -1,0 +1,4 @@
+com/study/model/User.class
+com/study/controller/UserManager.class
+com/study/Application.class
+com/study/config/SwggerUiConfig.class

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.study.model">
+
+    <!--获取登陆接口case-->
+    <select id="login" parameterType="com.study.model.User" resultType="Integer">
+
+        select count(*) from user where username=#{username} and password=#{password};
+
+    </select>
+
+
+    <!--添加用户接口case-->
+    <insert id="addUser" parameterType="com.study.model.User">
+
+        insert into user(username, password, age, sex, permission, isDelete) values (#{username}, #{password}, #{age}, #{sex}, #{permission}, #{isDelete});
+
+    </insert>
+
+    <!--获取用户信息case：update不管哪个字段为空，update sql语句都能够执行（预处理：prefixOverrides）-->
+    <select id="getUserInfo" parameterType="com.study.model.User" resultType="com.study.model.User">
+        select * from user
+        <trim prefix="WHERE" prefixOverrides="and">
+            <if test="null !=id and '' != id">
+                AND id=#{id}
+            </if>
+            <if test="null != username and '' != username">
+                AND username=#{username}
+            </if>
+            <if test="null != password and ''!= password">s
+                AND password=#{password}
+            </if>
+            <if test="null != sex and 0 != sex">
+                AND sex=#{sex}
+            </if>
+            <if test="null != age and 0 != age">
+                AND age=#{age}
+            </if>
+            <if test="null != permission and 0 != permission">
+                AND permission=#{permission}
+            </if>
+            <if test="null != isDelete and 0 != isDelete">
+                AND isDelete=#{isDelete}
+            </if>
+        </trim>
+    </select>
+
+    <!--更新/删除用户信息，最后一个逗号尾部处理：suffixOverrides-->
+    <update id="updateUserInfo" parameterType="com.study.model.User">
+        update user
+        <trim prefix="set" suffixOverrides=",">
+            <if test="null != username and '' != username">
+                username = #{username},
+            </if>
+            <if test="null != sex and 0 != sex">
+                sex = #{sex},
+            </if>
+            <if test="null != age and 0 != age">
+                age = #{age},
+            </if>
+            <if test="null != permission and 0 != permission">
+                permission = #{permission},
+            </if>
+            <if test="null != isDelete and 0 != isDelete">
+                isDelete = #{isDelete},
+            </if>
+        </trim>
+        where id = #{id};
+
+    </update>
+
+
+    <update id="updateUserInfo1" parameterType="com.study.model.User">
+        update user set username = #{username}, isDelete= #{isDelete} where id = #{id}
+
+    </update>
+
+</mapper>

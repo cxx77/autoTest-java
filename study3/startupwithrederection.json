@@ -1,0 +1,35 @@
+//get 与 post重定向一样
+
+[
+  {
+    "description": "重定向到百度",
+    "request": {
+      "uri": "/redirect",
+      "method": "get"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },
+
+  {
+    "description": "重定向到自己的网页上",
+    "request": {
+      "uri": "/redirect/topath",
+      "method": "get"
+    },
+    "redirectTo": "/redirect/new"
+  },
+
+  {
+    "description": "被重定向的网页",
+    "request": {
+      "uri": "/redirect/new",
+      "method": "get"
+    },
+    "response": {
+      "json": {
+        "status": "success",
+        "value": "1"
+      }
+    }
+  }
+]

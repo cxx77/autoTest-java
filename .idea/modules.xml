@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HttpClientStudy/HttpClientStudy.iml" filepath="$PROJECT_DIR$/HttpClientStudy/HttpClientStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JiekouTest/JiekouTest.iml" filepath="$PROJECT_DIR$/JiekouTest/JiekouTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study1/Study.iml" filepath="$PROJECT_DIR$/study1/Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoTest-java.iml" filepath="$PROJECT_DIR$/autoTest-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter2/chapter2.iml" filepath="$PROJECT_DIR$/chapter2/chapter2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatisStudy/mybatisStudy.iml" filepath="$PROJECT_DIR$/mybatisStudy/mybatisStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study2/study2.iml" filepath="$PROJECT_DIR$/study2/study2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userCaseMybatis/userCaseMybatis.iml" filepath="$PROJECT_DIR$/userCaseMybatis/userCaseMybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userCaseMybatis2/userCaseMybatis2.iml" filepath="$PROJECT_DIR$/userCaseMybatis2/userCaseMybatis2.iml" />
+    </modules>
+  </component>
+</project>

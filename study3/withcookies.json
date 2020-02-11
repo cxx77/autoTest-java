@@ -1,0 +1,51 @@
+[
+  {
+    "description": "get方法获得cookies信息",
+    "request": {
+      "uri": "/getcookies",
+      "method": "get"
+    },
+    "response": {
+      "cookies": {
+        "login": "true"
+      },
+      "text": "get方法获得cookies访问"
+    }
+  },
+
+  {
+    "description": "一个带cookies的get请求",
+    "request": {
+      "uri": "/getwithcookiestorequest",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "这是一个需要cookies信息才能访问的get请求"
+    }
+  },
+
+  {
+    "description": "模拟一个带cookies的post请求",
+    "request": {
+      "uri": "/postwthcookies",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "liuxiaoxi",
+        "age": "2"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "liuxiaoxi": "这是一个需要cookies信息才能访问的post请求",
+        "status": "1"
+      }
+    }
+  }
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name = "multithread" parallel = "methods" thread-count = "2">
+    <test name="multitest">
+        <classes>
+            <class name="com.study.testng.multiThread.mutilThreadOnXml"/>
+        </classes>
+    </test>
+</suite>

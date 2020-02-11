@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="thread" parallel="methods" thread-count="2">
+    <test name="threadtest">
+        <classes>
+            <class name="com.study.testng.multiThread.multThreadOnAnnotion" />
+        </classes>
+    </test>
+</suite>

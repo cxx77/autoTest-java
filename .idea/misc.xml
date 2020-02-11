@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/chapter/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter2/pom.xml" />
+        <option value="$PROJECT_DIR$/study1/pom.xml" />
+        <option value="$PROJECT_DIR$/study2/pom.xml" />
+        <option value="$PROJECT_DIR$/HttpClientStudy/pom.xml" />
+        <option value="$PROJECT_DIR$/JiekouTest/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisStudy/pom.xml" />
+        <option value="$PROJECT_DIR$/userCaseMybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/userCaseMybatis2/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="12.0.2" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

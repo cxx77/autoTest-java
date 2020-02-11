@@ -1,0 +1,16 @@
+/Users/cecily/Documents/workspace/autoTest-java/userCaseMybatis/src/main/java/com/study/config/TestConfig.java
+/Users/cecily/Documents/workspace/autoTest-java/userCaseMybatis/src/main/java/com/study/model/GetUserInfoCase.java
+/Users/cecily/Documents/workspace/autoTest-java/userCaseMybatis/src/main/java/com/study/model/UpdateUserInfoCase.java
+/Users/cecily/Documents/workspace/autoTest-java/userCaseMybatis/src/main/java/com/study/cases/LoginTest.java
+/Users/cecily/Documents/workspace/autoTest-java/userCaseMybatis/src/main/java/com/study/config/ExtentTestNGIReporterListener.java
+/Users/cecily/Documents/workspace/autoTest-java/userCaseMybatis/src/main/java/com/study/model/AddUserCase.java
+/Users/cecily/Documents/workspace/autoTest-java/userCaseMybatis/src/main/java/com/study/cases/UpdateUserInfoTest.java
+/Users/cecily/Documents/workspace/autoTest-java/userCaseMybatis/src/main/java/com/study/utils/ConfigFile.java
+/Users/cecily/Documents/workspace/autoTest-java/userCaseMybatis/src/main/java/com/study/utils/DatabaseUtil.java
+/Users/cecily/Documents/workspace/autoTest-java/userCaseMybatis/src/main/java/com/study/model/GetUserListCase.java
+/Users/cecily/Documents/workspace/autoTest-java/userCaseMybatis/src/main/java/com/study/model/LoginCase.java
+/Users/cecily/Documents/workspace/autoTest-java/userCaseMybatis/src/main/java/com/study/model/InterfaceName.java
+/Users/cecily/Documents/workspace/autoTest-java/userCaseMybatis/src/main/java/com/study/model/User.java
+/Users/cecily/Documents/workspace/autoTest-java/userCaseMybatis/src/main/java/com/study/cases/AddUserTest.java
+/Users/cecily/Documents/workspace/autoTest-java/userCaseMybatis/src/main/java/com/study/cases/GetUserInfoListTest.java
+/Users/cecily/Documents/workspace/autoTest-java/userCaseMybatis/src/main/java/com/study/cases/GetUserInfoTest.java
